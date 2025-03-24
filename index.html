@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィールページへリダイレクト</title>
+    
+    <!-- メタリダイレクト（JavaScriptが無効な場合のフォールバック） -->
+    <meta http-equiv="refresh" content="0; url=https://bento.me/ama434">
+    
+    <!-- OGPタグ（SNSでの共有用） -->
+    <meta property="og:title" content="ama_434's Profile">
+    <meta property="og:description" content="プロフィールページにリダイレクトします">
+    <meta property="og:image" content="public/img/profile-ama_434.jpg">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            background-color: #0366d6;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: #0256b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プロフィールページにリダイレクトしています...</h1>
+        <p>自動的にリダイレクトされない場合は、以下のリンクをクリックしてください。</p>
+        <a href="https://bento.me/ama434">プロフィールページへ</a>
+    </div>
+
+    <script>
+        // JavaScriptによるリダイレクト（より高速）
+        window.location.href = "https://bento.me/ama434";
+    </script>
+</body>
+</html>
